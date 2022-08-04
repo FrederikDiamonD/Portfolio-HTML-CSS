@@ -414,3 +414,101 @@ img.macbook {
     margin-right: 40px;
     font-weight: 700;
 }
+
+.contact__bar span {
+    margin-right: 40px;
+}
+
+.contact h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-left: 100px;
+}
+
+/* Media Queries for Contact Section */
+@media screen and (max-width: 768px) {
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact__bar {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contact__bar img {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .contact__bar p {
+        margin-right: 16px;
+    }
+
+    .contact__bar span {
+        font-size: 1rem;
+    }
+
+    .contact h1 {
+        font-size: 2rem;
+        margin-left: 0;
+        margin-top: 32px;
+    }
+}
+
+/* Footer Section */
+
+.footer {
+    color: #fff;
+    background: #002ed0;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 60px;
+}
+
+.footer__left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__left h2 {
+    margin-bottom: 24px;
+}
+
+.footer__left p {
+    line-height: 2;
+}
+
+.footer__right {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.footer__right a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* Media Queries for Footer Section */
+@media screen and (max-width: 1000px) {
+    .footer__container {
+        padding: 60px 24px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer__right {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .footer__right {
+        padding: 0 16px;
+    }
+}
