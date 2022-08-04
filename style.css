@@ -202,6 +202,10 @@
     line-height: 2;
 }
 
+.services__right {
+    overflow: hidden;
+}
+
 img.macbook {
     height: 700px;
     width: 100%;
@@ -333,6 +337,11 @@ img.macbook {
 .portfolio__right a {
     color: #fff;
     text-decoration: none;
+    border-radius: 12px;
+}
+
+.portfolio__right a:hover {
+    text-decoration: underline;
 }
 
 .portfolio__projects {
@@ -493,6 +502,10 @@ img.macbook {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+.footer__right a:hover {
+    text-decoration: underline;
 }
 
 /* Media Queries for Footer Section */
